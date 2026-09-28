@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./assets/fonts/Open_Sans/OpenSans.ttf);
+    font-weight: 650;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans100";
+    src: url(./assets/fonts/Open_Sans/OpenSans.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans250";
+    src: url(./assets/fonts/Open_Sans/OpenSans.ttf);
+    font-weight: 450;
+    font-style: normal;
+}
+
+:root {
+  /* Verdes principales */
+  --verde-base: #198754;
+  --verde-hover: rgba(60, 159, 81, 0.45);
+  --verde-medio: #3CA05A;
+  --verde-suave: #AEE5B1;
+  --verde-pastel: #E3F8E8;
+
+  /* Neutros recomendados */
+  --gris-body: #F5F7FA;
+  --gris-suave: #E8EEF2;
+  --gris-texto: #333333;
+}
+
+
+main h1{
+    font-family:"OpenSans100";
+}
+
+main h2{
+    font-family:"OpenSans100"
+}
+
+.nav-link:hover{
+    background-color: rgba(60, 159, 81, 0.45);
+    color: rgb(246, 238, 238);
+      
+}
+
+.nav-link{
+    border-radius: 1rem;
+}
