@@ -52,3 +52,8 @@ main h2{
 .nav-link{
     border-radius: 1rem;
 }
+
+footer span{
+    color: var(--verde-medio);
+}
+
